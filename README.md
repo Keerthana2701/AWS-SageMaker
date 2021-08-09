@@ -7,7 +7,7 @@
 -- Model training 
 -- Model deployment
 
-##  Model training and Deployment :
+##  Model training and Deployment for Cardiovascular disease prediction:
 
 
 Create SageMaker session
