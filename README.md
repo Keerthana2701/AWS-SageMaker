@@ -10,8 +10,8 @@
 ##  Model training and Deployment for Cardiovascular disease prediction:
 
 
--- Create SageMaker session
--- Create execution role (IAM) for notebook instance
+ Create SageMaker session <br /> 
+ Create execution role (IAM) for notebook instance <br />
 Cnvert the data in numpy array format to RecordIO format since Sagemaker needs data in this format
 Amazon S3 bucket URL (training data): where the training data is located.
 Compute resources: Amazon SageMaker will train the model using instances managed by Amazon SageMaker.
