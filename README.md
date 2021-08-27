@@ -12,20 +12,20 @@
 
  Create SageMaker session <br /> 
  Create execution role (IAM) for notebook instance <br />
-Cnvert the data in numpy array format to RecordIO format since Sagemaker needs data in this format
-Amazon S3 bucket URL (training data): where the training data is located.
-Compute resources: Amazon SageMaker will train the model using instances managed by Amazon SageMaker.
-Get training container of sagemaker built in algorithms by giving the PCA container image
-Amazon S3 bucket URL (Output): this bucket will host the output from the training.
-Amazon Elastic Container Registry path: where the training code is stored. 
-Amazon SageMaker launches an ML compute instances once a training job is initiated. 
-Amazon SageMaker uses: (1) training code and (2) training dataset to train the model. 
-Amazon SageMaker saves the trained model artifacts in an S3 bucket.
+Cnvert the data in numpy array format to RecordIO format since Sagemaker needs data in this format <br />
+Amazon S3 bucket URL (training data): where the training data is located. <br />
+Compute resources: Amazon SageMaker will train the model using instances managed by Amazon SageMaker. <br />
+Get training container of sagemaker built in algorithms by giving the PCA container image <br />
+Amazon S3 bucket URL (Output): this bucket will host the output from the training. <br />
+Amazon Elastic Container Registry path: where the training code is stored.  <br />
+Amazon SageMaker launches an ML compute instances once a training job is initiated. <br />
+Amazon SageMaker uses: (1) training code and (2) training dataset to train the model. <br />
+Amazon SageMaker saves the trained model artifacts in an S3 bucket. <br />
 
-Pass the output path, instance type, container and instance count in the estimator and tune hyperparameters for training 
-Deploy the model to perform inference
+Pass the output path, instance type, container and instance count in the estimator and tune hyperparameters for training <br />
+Deploy the model to perform inference <br />
 
-Train and evaluate the XGBoost model on data obtained after PCA.
+Train and evaluate the XGBoost model on data obtained after PCA. <br />
 
 
 
